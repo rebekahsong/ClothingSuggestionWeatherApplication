@@ -1,0 +1,2 @@
+# ClothingSuggestionWeatherApplication
+Dynamic weather application with clothing suggestions
