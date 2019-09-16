@@ -1,0 +1,83 @@
+h1,h2,h3{
+  margin: 0;
+}
+
+h1{
+  font-size:14rem;
+}
+
+h2{
+  font-size: 2.5rem;
+}
+
+h3{
+  font-size: 1.4rem;
+}
+
+span{
+  font-size:4rem;
+}
+
+#icon{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  width: 20%;
+}
+
+.temperature{
+  display:grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+}
+
+.leftcontainer{
+  width: 300px;
+  float: left;
+  height: 300px;
+  text-align: center;
+  padding: 40px 5px;
+}
+
+.container{
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px;
+  background-color: #B3D8DE;
+  padding:15px;
+  height: 500px;
+}
+  
+.topcontainer{
+  text-align: center;
+  padding: 10px ;
+  background-color: #e7e7e7;
+  border-radius: 10px;
+}
+
+.rightcontainer{
+  display: grid;
+  grid-template-rows: 50% 10% 40%;
+  height: 300px;
+  padding:40px 5px;
+  width: 350px;
+  float: right;
+  text-align: center;
+}
+
+.button {
+  background-color: #616C6E;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  float: right;
+  cursor: not-allowed;
+  opacity: 0.7;
+  transition: 0.3s;
+  border-radius: 5px;
+
+}
+
+.button:hover {opacity: 1}
